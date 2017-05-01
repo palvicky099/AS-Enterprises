@@ -1,0 +1,249 @@
+.popup-body .datetimepicker {
+  min-height: 221px;
+}
+.popup-body .datetimepicker table {
+  width: 100%;
+}
+.image{
+color: #bbbbbb;
+background-color: #bbbbbb;
+}
+
+.align{
+	margin-top: 100px;
+background-color: transparent;
+	height: 50px;
+}
+.txt{
+	text-align: center;
+	margin-top: 50px;
+	color: #ffffff;
+}
+
+.whitelink {
+  color:#ffffff;
+  text-decoration:none;
+  cursor:pointer;
+}
+.tabtxt{
+	color: #ffffff;
+}
+.cardcss
+{	
+color: #ffffff;
+background-color: #669999;
+font-size: 30px;
+padding: 16px;
+height: 60px;
+
+border-radius: 100px;
+text-align: center;
+
+}
+.padding
+{
+	margin-top: 20px;
+}
+.tabsalign{
+width: 392px;
+height: 44px;
+}
+.btnblock
+{
+width: 392px;
+height: 44px;
+
+}
+.footerclr{
+	color: #ef473a;
+}
+
+.cardcenter
+{
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*menu header*/
+
+
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+    min-height: 100px;
+    background-image:none;
+    background-color: white;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: white;
+    min-height: 100px;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height: 86px;
+    width: 144px;
+    border-radius:0px;
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+.has-expanded-header{
+    top: 110px!important;
+}
+
+/*label width*/
+.labelhight{
+    height: 100px;
+}
+/*aboutus*/
+.img{
+  background: url('../img/first.png') center;
+  background-size: cover;
+  height: 144px;
+  width: 144px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+.homeimg{
+  background: url('../img/home.png') center;
+  background-size: cover;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+ 
+}
+.sideimg{
+  background: url('../img/home.png') center;
+  background-size: cover;
+  height: 120px;
+  width: 80%;
+}
+.fontblue{
+    color: #000066;
+
+}
+.fontlightblue{
+    color: #333385;
+}
+.fontdark
+{
+    color: #008FB2;
+}
+
+.hight{
+
+}
+table#t011 th {
+       background-color: #f8f8f8;
+    color: #11c1f3;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.cards{
+    padding-top: 1px;
+  padding-bottom: 1px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); 
+}
+.box{
+  margin-top:110px;
+ border-radius: 20px;
+  padding: 20px;
+      color: white;
+
+
+}
+.bg-color-grey{
+  background-color: grey;
+}
+.wall{
+ background: url('../img/water-glass.jpg') center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.order-button{
+        border-radius: 100px;
+    height: 81px;
+    width: 94%;
+    background-color: rgba(17, 193, 243, 0.39) !important;
+    font-size: 46px;
+    margin-top: -35px;
+    border: 3px solid white;
+    color: white;
+}
+.brand-button{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.your-details-textfield{
+  background-color: #ddd !important;
+  max-width: 95%;
+}
+.border-none{
+  border:none;
+}
+.your-details-textfield:hover{
+  border-bottom:2px solid green;
+}
+.button-bottom{
+  position: fixed;
+  bottom: 5px;
+  background-color: #ddd !important;
+  border-radius: 100px;
+}
+.loading{
+  border:6px solid grey;
+}
+
+
+.bounce{
+  background: url('../img/home.png') center;
+  background-size: cover;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+      border: none;
+
+   -webkit-animation:bounce 1s infinite;
+ 
+}
+@-webkit-keyframes bounce {
+  0%   {
+   bottom:5px; 
+}
+  25%, 75% 
+  {
+   bottom:40px; 
+}
+  50%   
+     { 
+      bottom:60px;
+       }
+  100% 
+      {
+        bottom:0px;
+      }
+}

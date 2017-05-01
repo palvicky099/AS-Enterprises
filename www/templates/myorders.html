@@ -1,0 +1,24 @@
+<ion-view view-title="My Order" cache-view="false" >
+  <ion-content>
+  <div ng-show="show" class="card" style="    background-color: #e6b400;">
+<button class="button button-block button-positive">
+No Such Order</button>
+  </div>
+      <div class="list card" ng-model="o" ng-repeat="o in orders" ng-click="onHold(o)" style="border:4px solid #b2b2b2">
+
+             
+
+                <div class="item item-divider" style="background-color: #b2b2b2;">Order Id:-{{o.OrderId}}</div>
+                 <div class="item item-divider">Brand&nbsp -&nbsp{{o.Brands}}</div>
+                <div class="row" style="color:#E42012 ;font-weight:600">
+                        <div class="col"  style="color:black" >Cup:- {{o.Cup}}</div>
+                        <div class="col" style="color:black">Jar:- {{o.Jar}}</div>
+                        <div class="col" style="color:black">Bottle:-{{o.Bottle}}</div>
+                        <div class="col" style="color:black" ng-show="false">Size:-{{o.size}}</div> 
+                 </div>
+                 <p align="right"><i style="color:red; font-size:20px;" class="icon ion-clock"></i>&nbsp&nbsp&nbsp{{o.currentDate}}</p>
+              </div>
+          </ion-content>
+
+</ion-view>
+

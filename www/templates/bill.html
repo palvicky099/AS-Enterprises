@@ -1,0 +1,73 @@
+
+<ion-view view-title="Bill Dsetails">
+  <ion-content>
+      <div class="card cards">
+          <table id="t011">
+            
+                  <tr>
+                      <th>Type</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                  </tr>
+            
+              <tr>
+                  <h3><td>Cup</td></h3>
+                  <h3><td>{{cups}}</td></h3>
+                  <h3><td>{{cups* 100}}</td></h3>
+              </tr>
+              <tr>
+                  <h3><td>Jar</td></h3>
+                  <h3><td>{{jars}}</td></h3>
+                  <h3><td>{{jars*100}}</td></h3>
+              </tr>
+              <tr>
+                  <h3><td>Bottle</td></h3>
+                  <h3><td>{{bottles}} <span ng-if="Bsize"></span>/</h3><p>{{Bsize}}</p></td></h3>
+                  <h3><td>{{bottles*100}}</td></h3>
+              </tr>
+                            
+              <tr>
+                  <th colspan="2">Total</th>
+                  <th>{{cups*100+jars*100+bottles*100}}</th>
+
+              </tr>
+
+          </table>
+      </div>
+  </ion-content>
+
+ <button  class="button button-block button-bottom" ui-sref="app.yourdetails">
+    Continue
+   </button>
+</ion-view>
+
+
+
+<!-- Tables css -->
+  <style type="text/css">
+table {
+    width:100%;
+
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 25px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: #003300;
+    color: white;
+    font-size: 20px;
+}
+
+
+  </style>

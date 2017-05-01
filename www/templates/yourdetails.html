@@ -1,0 +1,33 @@
+<ion-view view-title="Select The Order" >
+  <ion-content>
+            <div class="list">
+                <label class="item item-input item-floating-label border-none">
+                    <span class="input-label">Full Name</span>
+                    <input class="your-details-textfield" type="text" placeholder="Full Name" ng-model="user.name">
+                </label>
+                <label class="item item-input item-floating-label border-none">
+                    <span class="input-label">Mobile Number</span>
+                    <input class="your-details-textfield"  type="text" pattern="[789][0-9]{9}" maxlength="10" placeholder="Mobile Number" ng-model="user.mobile">
+                </label>
+                <label class="item item-input item-floating-label border-none">
+                    <span class="input-label">Email</span>
+                    <input class="your-details-textfield"  type="text" placeholder="Email"  ng-model="user.email" required>
+                </label>
+                <label class="item item-input item-floating-label border-none">
+                    <span class="input-label">Delivery address</span>
+                    <textarea style="padding-top:5px" class="your-details-textfield" type="text" placeholder="Delivery Address" ng-model="user.address" rows="4"></textarea>  
+                </label>
+                  <label class="item item-input item-stacked-label border-none">
+                    <span class="input-label">Delivey Date</span>
+                  <input  class="your-details-textfield" type="date" ng-model="user.date">
+                                 
+                 </label>
+  
+</div>
+
+  </ion-content>
+   <button  class="button button-block button-bottom" ng-click="placeOrder(user)">
+      Confirm Order
+   </button> 
+</ion-view>
+

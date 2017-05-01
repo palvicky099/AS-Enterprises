@@ -1,0 +1,38 @@
+<ion-view view-title="Select The Order" >
+  <ion-content>
+       <div class="list">
+            <label class="item item-input labelhight">
+              <span class="input-label"><b>Cup</b></span>
+              <input type="number" placeholder="Quantity" ng-model="order.cup">
+            </label>
+            <label class="item item-input labelhight">
+              <span class="input-label"><b>Jar</b></span>
+              <input type="number" placeholder="Quantity" ng-model="order.jar">
+            </label>
+            <label class="item item-input labelhight">
+              <span class="input-label"><b>Bottle</b></span>
+              <input type="number" placeholder="Quantity" ng-model="order.bottle">
+            </label>
+              <div class="list">
+                <label class="item item-input item-select labelhight">
+                  <div class="input-label">
+                    <b>Size Of Bottles</b>
+                  </div>
+                    <select ng-model="order.bsize">
+                    <option value="200 ml">200 ml</option>
+                    <option value="500 ml">500 ml</option>
+                    <option selected value="1 Liter">1 Liter</option>
+                  </select>
+                </label>
+              </div>
+              </div>
+            
+          </ion-content>
+ 
+   
+ <button  class="button button-block button-bottom" ng-click="quantity(order)">
+     Get Bill
+   </button> 
+
+</ion-view>
+
